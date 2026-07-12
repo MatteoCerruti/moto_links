@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekend Moto — Navigazione</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 12px; background: #0f0f1a; color: #eee; }
+  h1 { font-size: 1.3em; text-align: center; margin-bottom: 4px; }
+  .sub { text-align: center; color: #888; font-size: 0.85em; margin-bottom: 16px; }
+  .day { background: #1a1a2e; border-radius: 12px; padding: 14px; margin: 14px 0; }
+  .day h2 { margin: 0 0 6px 0; font-size: 1.05em; }
+  .day.fri h2 { color: #ff9900; }
+  .day.sat h2 { color: #4da6ff; }
+  .day.sun h2 { color: #44cc44; }
+  .info { font-size: 0.82em; color: #999; margin: 3px 0; }
+  .time { color: #fbbf24; font-weight: 600; font-size: 0.82em; }
+  a.nav { display: block; background: #2563eb; color: white; text-align: center; padding: 13px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1em; margin: 8px 0 4px 0; }
+  a.nav:active { background: #1d4ed8; }
+  a.nav.green { background: #16a34a; }
+  a.nav.teal { background: #0e7490; }
+  a.nav.amber { background: #b45309; }
+  .tip { background: #1e293b; border-left: 3px solid #f59e0b; padding: 8px 10px; margin: 10px 0; font-size: 0.82em; color: #cbd5e1; border-radius: 0 6px 6px 0; }
+  .hl { color: #fbbf24; font-weight: 600; }
+  hr { border: none; border-top: 1px solid #333; margin: 10px 0; }
+  .timeline { font-size: 0.85em; color: #aaa; line-height: 1.9; margin: 8px 0; }
+  .timeline b { color: #eee; }
+  footer { text-align: center; color: #555; font-size: 0.75em; margin: 20px 0 10px; }
+  footer a { color: #4da6ff; }
+</style>
+</head>
+<body>
+
+<h1>🏍️ Weekend Moto</h1>
+<p class="sub">Verdon · Daluis · Cians · Col de Turini<br>Tempi realistici: soste, pranzo, foto, benzina</p>
+
+<!-- ═══ VENERDÌ ═══ -->
+<div class="day fri">
+  <h2>🟠 Venerdì PM — Scenic fino a Sospel</h2>
+  <p class="info">16:00 → 20:30 · Notte a Sospel · Turini domattina</p>
+
+  <div class="timeline">
+    <span class="time">16:00</span> Partenza Varazze<br>
+    <span class="time">17:30</span> <b class="hl">Colle di Nava</b> — caffè 10min ☕<br>
+    <span class="time">17:50</span> Ormea<br>
+    <span class="time">18:20</span> Limone Piemonte<br>
+    <span class="time">18:40</span> <b class="hl">Col de Tenda</b> — strada militare 48 tornanti se aperta!<br>
+    <span class="time">19:00</span> Breil-sur-Roya — luce della sera<br>
+    <span class="time">19:15</span> <b>Sospel</b> — check-in, borse, doccia 🏨<br>
+    <span class="time">20:00</span> <b>Cena</b> 🍽️ tranquilla in borgo
+  </div>
+
+  <a class="nav amber" href="https://www.google.com/maps/dir/Varazze,+Italy/Colle+di+Nava,+Pornassio/Ormea,+CN/Limone+Piemonte,+CN/Col+de+Tende,+France/Breil-sur-Roya,+France/Sospel,+France">📍 Varazze → Sospel</a>
+
+  <div class="tip">🌙 Turini rimandato a sabato mattina presto: strada vuota, aria fresca, luce perfetta. A letto presto stasera!</div>
+</div>
+
+<!-- ═══ SABATO ═══ -->
+<div class="day sat">
+  <h2>🔵 Sabato — Turini + Napoléon + Lago</h2>
+  <p class="info">7:00 → 19:30 · Turini all'alba · Pomeriggio al lago</p>
+
+  <div class="timeline">
+    <span class="time">7:00</span> Partenza Sospel — benzina ⛽ (ultimo prima del Turini!)<br>
+    <span class="time">7:00-8:30</span> <b class="hl">Col de Turini (1607m)</b> ⭐ — 34 tornanti, Rally Monte Carlo, strada vuota di mattina. Caffè in cima ai 3 hotel.<br>
+    <span class="time">8:30-9:00</span> Sospel — <b>colazione</b> ☕🥐 check-out<br>
+    <span class="time">9:30</span> <b class="hl">Col de Castillon</b> — curve strette, vista mare<br>
+    <span class="time">10:30</span> <b>Grasse</b> — sosta 15min ☕<br>
+    <span class="time">11:15</span> <b class="hl">Route Napoléon (N85)</b> — asfalto perfetto, curve ampie<br>
+    <span class="time">12:30</span> <b>Castellane</b> — check-in, borse 🏨<br>
+    <span class="time">13:15</span> <b class="hl">Lac de Sainte-Croix</b> 🏊<br>
+    <span class="time">13:30-14:30</span> <b>Pranzo</b> 🍽️ al lago o a Moustiers (borgo stupendo, 15min)<br>
+    <span class="time">14:30-17:00</span> Bagno, pedalò, kayak, relax 🏖️<br>
+    <span class="time">17:45</span> Ritorno Castellane<br>
+    <span class="time">19:30</span> <b>Cena</b> 🍽️ — domani si parte alle 7!
+  </div>
+
+  <a class="nav" href="https://www.google.com/maps/dir/Sospel,+France/Col+de+Turini,+France/Sospel,+France">📍 1. Sospel ↔ Col de Turini (7:00)</a>
+  <a class="nav" href="https://www.google.com/maps/dir/Sospel,+France/Col+de+Castillon,+Castellar/Grasse,+France/Castellane,+France">📍 2. Sospel → Castellane (9:00)</a>
+  <a class="nav teal" href="https://www.google.com/maps/dir/Castellane,+France/Lac+de+Sainte-Croix,+France/Moustiers-Sainte-Marie,+France/Castellane,+France">🏊 3. Lago + Moustiers (13:00)</a>
+
+  <div class="tip">⛽ Benzina a Sospel prima del Turini!<br>🏖️ Spiagge meno affollate: lato est del lago<br>🏘️ Moustiers-Ste-Marie: borgo tra due falesie con stella d'oro sospesa</div>
+</div>
+
+<!-- ═══ DOMENICA ═══ -->
+<div class="day sun">
+  <h2>🟢 Domenica — La giornata epica</h2>
+  <p class="info">7:00 → 17:00 · Crêtes + Daluis + Cians · Rientro via autostrada</p>
+
+  <div class="timeline">
+    <span class="time">7:00</span> Partenza Castellane (colazione al bar)<br>
+    <span class="time">7:30</span> La Palud-sur-Verdon<br>
+    <span class="time">7:45</span> <b class="hl">Belvédère de l'Escalès</b> ⭐ — 300m strapiombo!<br>
+    <span class="time">8:30</span> <b class="hl">Point Sublime</b> — vista canyon<br>
+    <span class="time">9:00</span> Castellane — caffè ☕<br>
+    <span class="time">9:30</span> Lac de Castillon — bello dalla strada<br>
+    <span class="time">10:15</span> Annot<br>
+    <span class="time">10:45</span> <b class="hl">Entrevaux</b> 🏰 — 15min foto cittadella<br>
+    <span class="time">11:00</span> <b class="hl">Gorges du Daluis</b> ⭐ — canyon rosso, gallerie<br>
+    <span class="time">11:45</span> <b>Guillaumes — Pranzo</b> 🍽️ 1h piena<br>
+    <span class="time">12:45</span> <b class="hl">Salita Valberg</b> — strada incollata alla roccia<br>
+    <span class="time">13:15</span> <b class="hl">Gorges du Cians</b> ⭐ — scisti rossi, clues, gallerie<br>
+    <span class="time">14:00</span> Puget-Théniers → N202 verso Nizza<br>
+    <span class="time">15:00</span> Nizza → A8 autostrada<br>
+    <span class="time">15:30</span> Ventimiglia → A10<br>
+    <span class="time">16:30-17:00</span> <b>Varazze — A CASA!</b> 🏠🎉
+  </div>
+
+  <a class="nav green" href="https://www.google.com/maps/dir/Castellane,+France/La+Palud-sur-Verdon,+France/43.7572,6.3914/Point+Sublime,+Rougon,+France/Castellane,+France">📍 1. Route des Crêtes (7:00-9:00)</a>
+
+  <a class="nav green" href="https://www.google.com/maps/dir/Castellane,+France/Annot,+France/Entrevaux,+France/Gorges+du+Daluis,+France/Guillaumes,+France">📍 2. Castellane → Daluis → Guillaumes (9:15-11:45)</a>
+
+  <a class="nav green" href="https://www.google.com/maps/dir/Guillaumes,+France/Valberg,+France/Beuil,+France/Gorges+du+Cians,+France/Puget-Theniers,+France">📍 3. Guillaumes → Valberg → Cians (12:45-14:00)</a>
+
+  <a class="nav green" href="https://www.google.com/maps/dir/Puget-Theniers,+France/Nice,+France/Ventimiglia,+Italy/Varazze,+Italy">📍 4. Rientro autostrada (14:00-17:00)</a>
+
+  <div class="tip">🏰 Entrevaux: ponte levatoio e cittadella Vauban<br>🔴 Gorges du Cians: pareti a 1 metro nella parte bassa!<br>🛣️ N202 Puget→Nizza: veloce ma noiosa, è lo scivolo verso casa</div>
+</div>
+
+<div class="tip" style="border-left-color: #ef4444;">
+  ⚠️ Su Google Maps: tocca ⋮ → <b>Opzioni percorso</b> → <b>Evita autostrade</b> per le tratte in montagna.<br>Autostrada solo per Nizza/Ventimiglia → Varazze.
+</div>
+
+<footer>
+  🗺️ Importa <b>moto_weekend.kml</b> su <a href="https://mymaps.google.com">Google My Maps</a> per la mappa completa<br><br>
+  <b>Strade top del weekend:</b><br>
+  Col de Turini (34 tornanti rally) · Route des Crêtes (300m strapiombo)<br>
+  Gorges du Daluis (canyon rosso) · Gorges du Cians (clues rosse)<br>
+  Route Napoléon (curve ampie) · Col de Tenda (48 tornanti)
+</footer>
+
+</body>
+</html>
